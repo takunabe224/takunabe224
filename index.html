@@ -7,26 +7,45 @@
     <!--jqueryはここから-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="setup/main_jquery.js"></script>
+    <script src="https://kit.fontawesome.com/8577dda3b8.js" crossorigin="anonymous"></script>
     <!--cssはこちらから-->
     <link rel="stylesheet" href="setup/main.css">
     <title>拓海のweb</title>
 </head>
 <body>
     <header>
-        <div class="header-logo">拓海のWEB</div> 
+        <div class="header-logo"><a href="#top-message">拓海のWEB</a></div> 
         <nav>
-            <ul>
-                <a href="" class="nav-link"><li class="nav-ist">about</li></a>
-                <a href="" class="nav-link"><li class="nav-ist">history</li></a>
-                <a href="" class="nav-link"><li class="nav-ist">events</li></a>
-                <a href="" class="nav-link"><li class="nav-ist">more</li></a>
+            <ul class="nav-ul">
+                <a href="#about-Takumi" class="nav-link"><li class="nav-list">about</li></a>
+                <a href="" class="nav-link"><li class="nav-list">history</li></a>
+                <a href="" class="nav-link"><li class="nav-list">events</li></a>
+                <a href="" class="nav-link"><li class="nav-list">more</li></a>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="top-message">拓海のWEB</div>
-        <div class="main-message"></div>
-        <div class="sub-message1"></div>
+        <div id="top-message">未来へ進む</div>
+        <div id="main-message">Welcome To <br>Takumi's web!! </div>
+        <div class="sub-message1" id="about-Takumi">
+            <div class="border"> </div>
+            <img src="img/me.jpg"><br>
+            <div class="main-text">拓海とは</div>
+            <p>フルネーム：渡辺 拓海<br>
+                どこにもいる普通の中学生<br>
+                身長:172cm <br>
+                体重:秘密<br>
+                一言コメント:よろしく！
+            </p>
+        </div>
+        <div class="sub-message1 history">
+            <div class="border"> </div>
+            <div class="main-text">history of Takumi</div>
+            <div class="history-1">
+                <div class="history-main-text">誕生日</div>
+                <div class="history-text">2008/09/24に生まれました</div>
+            </div>
+        </div>
         <div class="sub-message2"></div>
     </main>
     <footer>
